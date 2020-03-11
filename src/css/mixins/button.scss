@@ -1,4 +1,4 @@
-@mixin bttn($background, $border,$display, $text-transform, $padding, $line-height) {
+@mixin btn($background, $border,$display, $text-transform, $padding, $line-height) {
     background:$background;
     border:$border;
     display:$display;
