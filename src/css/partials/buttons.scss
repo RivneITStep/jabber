@@ -1,0 +1,142 @@
+@import"mixins/font";
+@import"colors.scss";
+@import"mixins/button";
+@import"fonts.scss";
+
+.btn-download-small-report{
+    @include btn($bg-color-btn-1, none, flex, capitalize, 0 25px ,42px);
+    @include font(18px,  $font-regular, $color-btn-1);
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+    transition: 0.2s all;
+
+    &:hover{
+        background-color: $bg-color-btn-1-hover;
+    }
+}
+
+.btn-download-small-report-green{
+    @include btn($bg-color-btn-2, none, flex, capitalize, 0 25px ,42px);
+    @include font(18px,  $font-regular, $color-btn-1);
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+    transition: 0.2s all;
+
+    &:hover{
+        background-color: $bg-color-btn-2-hover;
+    }
+}
+
+.btn-download-small-report-red{
+    @include btn($bg-color-btn-3, none, flex, capitalize, 0 25px ,42px);
+    @include font(18px,  $font-regular, $color-btn-1);
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+    transition: 0.2s all;
+
+    &:hover{
+        background-color: $bg-color-btn-3-hover;
+        color:$color-btn-3-hover;
+    }
+}
+
+.btn-download-middle-report{
+    @include btn($bg-color-btn-1, none, flex, capitalize, 0 30px ,48px);
+    @include font(20px,  $font-regular, $color-btn-1);
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+    transition: 0.2s all;
+
+    &:hover{
+        background-color: $bg-color-btn-1-hover;
+    }
+}
+
+.btn-download-middle-report-green{
+    @include btn($bg-color-btn-2, none, flex, capitalize, 0 30px ,48px);
+    @include font(20px,  $font-regular, $color-btn-1);
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+    transition: 0.2s all;
+
+    &:hover{
+        background-color: $bg-color-btn-2-hover;
+    }
+}
+
+.btn-download-middle-report-red{
+    @include btn($bg-color-btn-3, none, flex, capitalize, 0 30px ,48px);
+    @include font(20px,  $font-regular, $color-btn-1);
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+    transition: 0.2s all;
+
+    &:hover{
+        background-color: $bg-color-btn-3-hover;
+        color:$color-btn-3-hover;
+    }
+}
+
+.btn-download-big-report{
+    @include btn($bg-color-btn-1, none, flex, capitalize, 0 67px ,69px);
+    @include font(30px,  $font-regular, $color-btn-1);
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+    transition: 0.2s all;
+
+    &:hover{
+        background-color: $bg-color-btn-1-hover;
+    }
+}
+
+.btn-download-big-report-green{
+    @include btn($bg-color-btn-2, none, flex, capitalize, 0 67px ,69px);
+    @include font(30px,  $font-regular, $color-btn-1);
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+    transition: 0.2s all;
+
+    &:hover{
+        background-color: $bg-color-btn-2-hover;
+    }
+}
+
+.btn-download-big-report-red{
+    @include btn($bg-color-btn-3, none, flex, capitalize, 0 67px ,69px);
+    @include font(30px,  $font-regular, $color-btn-1);
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+    transition: 0.2s all;
+
+    &:hover{
+        background-color: $bg-color-btn-3-hover;
+        color:$color-btn-3-hover;
+    }
+}
