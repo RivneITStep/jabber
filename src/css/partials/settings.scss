@@ -1,12 +1,29 @@
 h1 {
-  font-size: 30px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: cornflowerblue;
+  @include font(30px, $font-semiBold, $font-color-primary-2)
 }
+
 h2 {
-  font-size: 28px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: crimson;
+  @include font(26px, $font-semiBold, $font-color-primary-2)
+}
+
+h3 {
+  @include font(22px, $font-semiBold, $font-color-primary-2)
+}
+
+h4 {
+  @include font(18px, $font-semiBold, $font-color-primary-2)
+}
+
+h5 {
+  @include font(14px, $font-semiBold, $font-color-primary-2)
+}
+
+h6 {
+  @include font(10px, $font-semiBold, $font-color-primary-2)
+}
+
+p {
+
 }
 
 ul {
