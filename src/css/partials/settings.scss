@@ -1,36 +1,69 @@
+
+@import "../mixins/button.scss";
+@import "../mixins/font.scss";
+@import "colors.scss";
+
 h1 {
-  @include font(30px, $font-semiBold, $font-color-primary-2)
+  @include font(56px, $font-regular, $bg-color-primary-2);
 }
 
 h2 {
-  @include font(26px, $font-semiBold, $font-color-primary-2)
+  @include font(46px, $font-regular, $bg-color-primary-2);
 }
 
 h3 {
-  @include font(22px, $font-semiBold, $font-color-primary-2)
+  @include font(36px, $font-regular, $bg-color-primary-2);
 }
 
 h4 {
-  @include font(18px, $font-semiBold, $font-color-primary-2)
+  @include font(32px, $font-regular, $bg-color-primary-2);
 }
 
 h5 {
-  @include font(14px, $font-semiBold, $font-color-primary-2)
+  @include font(28px, $font-regular, $bg-color-primary-2);
 }
 
 h6 {
-  @include font(10px, $font-semiBold, $font-color-primary-2)
+  @include font(24px, $font-regular, $bg-color-primary-2);
 }
 
 p {
-
+  @include font(20px, $font-regular, $bg-color-primary-2);
 }
 
 ul {
-  padding-left: 0;
-  list-style: none;
+
   li {
-    font-size: 24px;
-    color: cornflowerblue;
+    margin: 25px 0;
+    @include font(32px, $font-regular, $bg-color-primary-2);
   }
+}
+
+
+.inp {
+  @include font(18px, $font-regular, $color-input-1);
+  padding: 0 5px 0 20px;
+  line-height: 40px;
+  background-color: $bg-color-input-1;
+  border: 1px solid $border-color-input-1;
+  border-radius: 3px;
+  transition: all 0.3s;
+  &:hover{
+      background-color: $bg-color-input-2;
+  }
+  &:focus{
+      color : $color-input-2;
+      border: 1px solid $border-color-input-2;
+  }
+  &:focus::-webkit-input-placeholder{
+      color: transparent !important;
+  }
+
+  &:disabled{
+      color : $color-input-5;
+      background-color: $bg-color-input-1;
+      border: 1px solid $border-color-input-5;
+  }
+
+  
 }

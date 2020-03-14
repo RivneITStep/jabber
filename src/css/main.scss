@@ -8,13 +8,14 @@
 @import "partials/buttons.scss";
 @import "partials/colors.scss";
 @import "partials/fonts.scss";
-@import "partials/settings.scss";
+
 
 /* Mixins */
 @import "mixins/button.scss";
 @import "mixins/font.scss";
 
 /* Settings */
+@import "partials/settings.scss";
 
 /* Views */
 
