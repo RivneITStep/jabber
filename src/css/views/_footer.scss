@@ -1,0 +1,29 @@
+#footer-site
+{
+padding-bottom: 10px;
+padding-top: 10px;
+background: #b0bac9;
+text-align: center;
+}
+
+
+#footer-site,
+#footer-site a{
+    color:#fff
+}
+
+#footer-site a
+{
+   text-decoration: none; 
+}
+
+.widget-social li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+   
+}
+.widget-social li a:hover
+{
+    color: #e6d710 !important;
+}
