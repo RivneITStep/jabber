@@ -1,3 +1,109 @@
-main{
-    
+//main{
+ 
+//}
+h2{
+    color: $bg-color-btn-1;
+    text-transform:uppercase;
+    display: flex;
+    justify-content:center;
+    background-color:$color-form-2;
+    color: $bg-color-btn-1;
+    box-shadow: 9px 11px 6px -8px rgba(0,0,0,0.65);
+    padding: 0 3%;
+  }
+  p{
+      color: #000000;
+  }
+  .form1,.form2{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    &::after{  
+        content: '';
+        position: absolute;
+        border: 15px solid transparent; 
+        border-left: 15px solid $color-form-2;
+        border-top: 15px solid $color-form-2;
+        margin-top: -10px;
+    }
+    .shadow_triql2{
+        content: '';
+        position: absolute;
+        border:23px solid transparent; 
+        margin-left: -24px;
+        margin-top: -39px;
+        box-shadow: 9px 0px 6px -5px rgba(0,0,0,0.65);
+        transform: rotate(45deg) translateX(15px) translateY(15px);
+    }
+  }
+  .form2{
+      margin-top:-20px;
+  }
+.section-one{
+    background-color:$bg-color-primary-4;
+    .hed { 
+        @include font(32px, $font-regular, $bg-color-btn-1);
+        text-transform:uppercase;
+    } 
+    .item{
+        color: $bg-color-btn-1;
+        font-size: 25px;
+        .itemBlog{
+            margin-block-start: -25px;
+            margin-left: -17px;
+        }
+    }
+    li{
+        margin-left: 17px;
+    }
+    ol{
+        padding-left: 0px;
+    } 
+}
+.section-two{
+    background-color:$bg-color-primary-2;
+    p{
+        color: #ffff;
+    }
+}
+.section-three{
+    background-color:$bg-color-primary-4;
+    .cenB{
+        display: flex;
+        justify-content: center;
+
+    }
+    .block{
+        background-color:  #ffffff;    
+        padding: 0 30px 10px 40px;
+        margin: 40px 0px 70px 0px;
+        box-shadow: 9px 10px 6px -5px rgba(0,0,0,0.65);
+        position: relative;
+        &::after{  
+            content: '';
+            position: absolute;
+            border: 20px solid transparent; 
+            border-left: 20px solid #fff;
+            border-top: 15px solid #fff;
+            margin-left: -40px;
+            margin-top: 9px;
+        }
+        .shadow_triql3{
+            content: '';
+            position: absolute;
+            border:28px solid transparent; 
+            margin-left: -68px;
+            margin-top: -40px;
+            box-shadow: 9px 0px 6px -5px rgba(0,0,0,0.65);
+            transform: rotate(45deg) translateX(15px) translateY(15px);
+        }
+        h3{
+            margin: 0px;
+            line-height: 70px;
+            text-transform:uppercase;
+        }
+        ul{
+            margin-block-start: -40px;
+        }
+    }
 }
