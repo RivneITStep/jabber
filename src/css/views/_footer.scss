@@ -1,29 +1,91 @@
-#footer-site
+
+
+.widget-top
 {
-padding-bottom: 10px;
-padding-top: 10px;
-background: #b0bac9;
-text-align: center;
+    background-color:  #b0bac9;
 }
 
+.widget{
+    .wreper
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .widget-social li
+        {
+            
+            a{
+                text-decoration: none;
+                @media screen and (max-width: 568px){
+                    font-size: 15px;
+                }
+            }
+            list-style: none;
+            display: inline-block;
+            margin: 0 30px;
+        }
+    }
 
-#footer-site,
-#footer-site a{
-    color:#fff
-}
+    img
+    {
+        height: 40px;
+        @media screen and (max-width: 1200px){
+            margin-top: 10px;
+        }
 
-#footer-site a
-{
-   text-decoration: none; 
-}
-
-.widget-social li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 20px;
+        @media screen and (max-width: 568px){
+            margin-top: 10px;
+            height: 20px;
+        }
+    }
+    
    
+    .widget-social li a:hover
+    {
+        color: #e6d710 !important;
+    }
 }
-.widget-social li a:hover
-{
-    color: #e6d710 !important;
+
+.footer-bottom{
+    background-color: $bg-color-primary-2;
+
+    .footer-service{
+        .services{
+            display: flex;
+            justify-content: center;
+        }
+        ul>
+        li{
+            margin: 1px 0;
+            font-size: 20px;
+            a{
+                color: $bg-color-primary-3;
+                text-decoration: none;
+                font-size: 18px;
+            }
+        }
+    }
+    .footer-menu{
+        display: flex;
+            justify-content: center;
+        a{
+            color: $bg-color-primary-3;
+            margin-top: 10px;
+            padding: 0 5px;
+            
+        }
+    }
+    .footer-policy{
+        display: flex;
+        justify-content: center;
+        .fpolisy{
+            margin: 20px 0;
+        }
+        a{
+            color: $bg-color-primary-3;
+           
+        }
+    }
 }
+
+
