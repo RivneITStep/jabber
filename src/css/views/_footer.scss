@@ -2,7 +2,7 @@
 
 .widget-top
 {
-    background-color:  #b0bac9;
+    background-color:  $bg-color-primary-6;
 }
 
 .widget{
@@ -47,7 +47,7 @@
 }
 
 .footer-bottom{
-    background-color: $bg-color-primary-2;
+    background-color: $bg-color-primary-1;
 
     .footer-service{
         .services{
@@ -58,6 +58,7 @@
         li{
             margin: 1px 0;
             font-size: 20px;
+            list-style: none;
             a{
                 color: $bg-color-primary-3;
                 text-decoration: none;
