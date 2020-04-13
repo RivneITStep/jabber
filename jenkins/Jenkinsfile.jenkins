@@ -37,22 +37,22 @@ pipeline  {
                 '''
             }
         }
-        stage("docker stop") {
-            steps {
-                echo " ============== stoping all images =================="
-                sh '''
-                docker stop jabber
-                '''
-            }
-        } 
-        stage("docker remove") {
-            steps {
-                echo " ============== removing all docker containers =================="
-                sh '''
-                docker rm jabber
-                '''
-            }
-        }
+        // stage("docker stop") {
+        //     steps {
+        //         echo " ============== stoping all images =================="
+        //         sh '''
+        //         docker stop jabber
+        //         '''
+        //     }
+        // } 
+        // stage("docker remove") {
+        //     steps {
+        //         echo " ============== removing all docker containers =================="
+        //         sh '''
+        //         docker rm jabber
+        //         '''
+        //     }
+        // }
         stage("docker run") {
             steps {
                 echo " ============== starting jabber =================="
