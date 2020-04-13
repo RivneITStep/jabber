@@ -4,6 +4,9 @@ body{
 }
 
 header {
+    a{
+        text-decoration:none;
+    }
     .header-info{
         padding: 5px;
         background-color: $bg-color-primary-1;
